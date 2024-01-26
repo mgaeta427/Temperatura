@@ -61,14 +61,15 @@ function displayForecast() {
       forecastHtml +
       `
   <div class="weather-forecast-day">
+  
   <div class="weather-forecast-date">${day}</div>
   <div class="weather-forecast-icon">⛅</div>
-  <div class="weather-forecast-temperatures"></div>
-  <div class="weather-forecast-temperature"></div>
-  <strong>15\u00B0;</strong></div>
-  <div class="weather-forecast-temperature"> 9\u00B0;></div>
-
-  `;
+  <div class="weather-forecast-temperatures">
+  <div class="weather-forecast-temperature">
+  <strong>15\u00B0</strong></div>
+  <div class="weather-forecast-temperature"> 9\u00B0</div>
+  </div>
+  </div>`;
   });
 
   let forecastElement = document.querySelector("#forecast");
